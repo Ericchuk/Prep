@@ -1,0 +1,38 @@
+:root{
+    --primary-color:white;
+    --sec-color:grey;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*h2{
+    text-align:center;
+    padding:50% 0 0 0;
+    text-transform:uppercase;
+}
+
+header {
+    position:relative;
+
+    .hamburger-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding:20px;
+
+        h2{
+            margin:0 0 0 35%;
+            z-index:4;
+            padding:0;
+
+            a{
+                text-decoration:none;
+                color:black;
+            }
+        }
+    }
+}
