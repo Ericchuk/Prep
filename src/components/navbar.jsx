@@ -5,11 +5,11 @@ import "./cssFile/navbar.css";
 export default function Navbar({openNav}) {
   const navItems = [
     { id: 0, item: "Home", link: "/" },
-    { id: 1, item: "About", link: "/about" },
-    { id: 2, item: "Donate", link: "/donate" },
-    { id: 3, item: "Gallery", link: "/gallery" },
-    { id: 4, item: "Projects", link: "/projects" },
-    { id: 5, item: "Orphanage homes", link: "/orphanage" },
+    { id: 1, item: "About", link: "about" },
+    { id: 2, item: "Donate", link: "donate" },
+    { id: 3, item: "Gallery", link: "gallery" },
+    { id: 4, item: "Projects", link: "projects" },
+    { id: 5, item: "Orphanage homes", link: "orphanage" },
   ];
 
   const items = navItems.map((item) => {
